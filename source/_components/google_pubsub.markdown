@@ -16,7 +16,7 @@ The `google_pubsub` component allows you to hook into the Home Assistant event b
 
 ## {% linkable_title First time setup %}
 
-This assumes you already have a Google Cloud project. If you don't, please create one in the [Google Cloud Console](https://console.cloud.google.com/projectcreate)
+This assumes you already have a Google Cloud project. If you don't, please create one in the [Google Cloud Console](https://console.cloud.google.com/projectcreate), you will also need to enable the PubSub API in the Cloud Console. You can do this by searching for APIs in the seach bar, clicking the blue 'Enable APIs and Services' button, search for Pub Sub, click on Cloud Pub/Sub and enable the API. Without doing this, you will not be able to choose the role in the next step.
 
 You need to create a Service Account key in the [Google Cloud API Console](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
 - Choose a new "New Service Account", give it a name and leave the key type as JSON
